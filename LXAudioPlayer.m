@@ -22,7 +22,7 @@
 #pragma mark playMusic
 + (LXAudioPlayer *)playMusic:(NSString *)musicFileName
 {
-    return [self playMusic:musicFileName repeatCount:1];
+    return [self playMusic:musicFileName repeatCount:0];
 }
 + (LXAudioPlayer *)playMusic:(NSString *)musicFileName repeatCount:(NSInteger)repeatCount
 {
